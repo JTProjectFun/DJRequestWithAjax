@@ -1,0 +1,12 @@
+/* set max width - cut-offs are 768, 992 & 1200 */
+@media (min-width: 992px),  {
+  .container {
+    width: 1200px;
+  }
+}
+
+/* CSS BELOW HERE IS FOR ADMIN ONLY */
+
+html {
+    height: 102%; /* hack to avoid minor jumps in spacing when scrollbars are present or not present */
+}
