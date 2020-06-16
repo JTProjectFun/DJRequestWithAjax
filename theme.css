@@ -1,0 +1,210 @@
+
+.requestinfo {
+    display: none;
+    margin: 0px 5px;
+    background-color: #eee;
+}
+.row.info{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.popout {
+    display: none;
+}
+.searchresult {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #aaa;
+}
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+h1, .h1 {
+	font-size:24px;
+}
+
+/* set max width - cut-offs are 768, 992 & 1200 */
+@media (min-width: 992px),  {
+  .container {
+    width: 840px;
+  }
+}
+.page-header {
+	margin-top:5px;
+}
+
+/* front-end sign in form */
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"], input[type="password"]
+{
+    margin-bottom: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-control input
+ {
+    margin-bottom: 100px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.account-wall
+{
+    margin-top: 15px;
+    padding: 0px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    padding: 10px 0px;
+}
+
+.top-buffer { margin-top:20px; }
+
+.btn-howto {
+	width:100%;
+}
+
+.panel-heading {
+	cursor: pointer;
+}
+
+a.accordion-toggle:hover, a.accordion-toggle:focus {
+	text-decoration: none !important;
+}
+
+#errorModal .modal-header {
+	color: red;
+}
+
+/* request listing */
+#requests-placeholder .well {
+	font-size:115%;
+	margin-bottom:12px;
+	padding-top:5px; padding-bottom:5px;
+}
+#requests-placeholder em {
+	font-size:80%;
+}
+
+.shareqrcode {
+    margin: 0 auto;
+}
+
+.share-btn {
+	margin-right:10px;
+}
+
+.error {
+	font-size:75%;
+	color: red;
+}
+
+.request-pane {
+
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+}
+
+.request-tabs {
+    margin-bottom: 0;
+}
+
+/* request form looks strange full width */
+/* set max width - cut-offs are 768, 992 & 1200 */
+@media (min-width: 620px),  {
+  #gridder_addform .col-md-8 {
+    width: 560px;
+  }
+}
+
+.appstores {
+	margin:0px auto;
+}
+/* CSS BELOW HERE IS FOR ADMIN ONLY */
+
+.gridder_input, .gridder_add {
+        display:none;
+        margin:0;
+        padding:0;
+ width:70px;
+        outline:none;
+        border:none;
+        padding:2px;
+        border:#24E2F2 solid 1px;
+}
+
+#addnew {
+display:none;
+}
+
+#gridder_addform {
+padding-bottom:20px;
+}
+
+.even {
+    background-color: #ddd;
+}
+
+.eventedit{
+    display: none;
+    max-width:50px;
+}
+.cat_input{
+display:none;
+}
